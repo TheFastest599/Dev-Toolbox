@@ -14,6 +14,8 @@ function App() {
   const [tab, setTab] = useState('json');
   const [dark, setDark] = useState(false);
 
+  document.title = 'Dev Toolbox - JSON Formatter & Base64 Encoder/Decoder';
+
   useEffect(() => {
     const saved = localStorage.getItem('devtoolbox-dark');
     let isDark = false; // default to light mode
