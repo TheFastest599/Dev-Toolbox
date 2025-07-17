@@ -51,6 +51,11 @@ app.post('/decode', (req, res) => {
   }
 });
 
+// Hi route
+app.get('/hi', (req, res) => {
+  res.send('hello');
+});
+
 // Fallback to index.html for SPA
 if (mode !== 'development') {
   app.get('*', (req, res) => {
