@@ -8,8 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build-and-serve": "npm run build && cd server && npm run start",
-    "install-stuff": "npm install && cd server && npm install"
+    "serve": "cd server && npm run start",
+    "install-stuff": "npm install && npm run build && cd server && npm install"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
