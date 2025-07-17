@@ -44,3 +44,11 @@ A professional developer utility web app with:
 Live
 
 [Dev Toolbox Live](https://dev-toolbox-uxgq.onrender.com)
+
+## What I’d improve with more time
+
+- Add more developer tools (e.g., UUID generator, regex tester, color picker)
+- Improve error handling and user feedback throughout the app
+- Add authentication for user-specific features
+- Enhance mobile responsiveness and accessibility
+- Optimize performance and bundle size
